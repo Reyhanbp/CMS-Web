@@ -19,6 +19,7 @@
         </div>
 
         <div class="card-body">
+
             @if (Session::has('message'))
                 <div class="alert alert-success">
                         {{Session::get('message')}}
